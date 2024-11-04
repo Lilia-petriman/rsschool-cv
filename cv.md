@@ -36,6 +36,7 @@ console.log(`Last: ${text[length(text)-1]}`);
   + CS50 lectures
   + Codecademy
   + HTML Academy
+  
 ## Languages:
 * Russian - native speaker.
 * English - Pre -Intermediate
