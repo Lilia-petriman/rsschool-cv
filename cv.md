@@ -2,7 +2,6 @@
 
 ## Junior Frontend Developer
 
-*****
 ## Contact:
 * __Phone:__ +375 33 622-74-73
 * __E-mail:__ 22Lilia0168@mail.ru
