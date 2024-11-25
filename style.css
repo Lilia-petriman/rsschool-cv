@@ -1,0 +1,78 @@
+html {
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    max-width: 1440px;
+    height: 100vh;
+    padding: 60px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  .photo{
+    width: 350px;
+    height: 500px;
+    margin-right: 60px;
+    
+  }
+  .about_me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1.name{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 62px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  h2{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 62px;
+    
+  }
+  h2.profession{
+    text-align: center;
+  }
+  li{
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  span{
+    font-weight: 700;
+  }
+  .about_me{
+    background-color: rgb(85, 196, 230);
+  }
+  .contact{
+    padding-top: 80px;
+  }
+  .contact_text{
+    margin-bottom: 20px;
+  }
