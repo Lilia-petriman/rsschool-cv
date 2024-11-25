@@ -15,6 +15,7 @@ html {
     max-width: 1440px;
     height: 100vh;
     padding: 60px;
+    line-height: 1.5;
   }
   
   h1,
@@ -31,17 +32,21 @@ html {
     font-family: Montserrat;
     font-weight: 600;
   }
+  section{
+    margin-top: 40px;
+  }
   .photo{
     width: 350px;
     height: 500px;
     margin-right: 60px;
     
   }
-  .about_me{
+  .description{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #55c4e6;
   }
   h1.name{
     font-size: 80px;
@@ -52,9 +57,28 @@ html {
   }
   h2{
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 62px;
     
+  }
+  h3{
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 62px;
+    background-color: #55c4e6;
+    margin-bottom: 45px;
+    
+  }
+  p{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+  }
+  .education p{
+    font-weight:500
+
   }
   h2.profession{
     text-align: center;
@@ -63,16 +87,18 @@ html {
     font-size: 1.5em;
     font-weight: 500;
     line-height: 1.5;
+    margin-left: 30px;
+  }
+  pre{
+   width: 50%;
+   background-color: rgb(228, 220, 220);
   }
   span{
     font-weight: 700;
   }
-  .about_me{
-    background-color: rgb(85, 196, 230);
-  }
-  .contact{
+  /* .contact{
     padding-top: 80px;
-  }
+  } */
   .contact_text{
     margin-bottom: 20px;
   }
