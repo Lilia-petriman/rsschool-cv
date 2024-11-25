@@ -1,0 +1,104 @@
+html {
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    max-width: 1440px;
+    height: 100vh;
+    padding: 60px;
+    line-height: 1.5;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: 600;
+  }
+  section{
+    margin-top: 40px;
+  }
+  .photo{
+    width: 350px;
+    height: 500px;
+    margin-right: 60px;
+    
+  }
+  .description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #55c4e6;
+  }
+  h1.name{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 62px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  h2{
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 62px;
+    
+  }
+  h3{
+    display: inline;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 62px;
+    background-color: #55c4e6;
+    margin-bottom: 45px;
+    
+  }
+  p{
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+  }
+  .education p{
+    font-weight:500
+
+  }
+  h2.profession{
+    text-align: center;
+  }
+  li{
+    font-size: 1.5em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-left: 30px;
+  }
+  pre{
+   width: 50%;
+   background-color: rgb(228, 220, 220);
+  }
+  span{
+    font-weight: 700;
+  }
+  /* .contact{
+    padding-top: 80px;
+  } */
+  .contact_text{
+    margin-bottom: 20px;
+  }
